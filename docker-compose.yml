@@ -5,7 +5,7 @@ services:
     image: hackinglab/alpine-gotty-hacker:3.2
     environment:
     - AUTHOR=e1
-    - HL_USER_USERNAME=hacker
+    - HL_USER_USERNAME=root
     - HL_USER_PASSWORD=compass
     ports:
       - 8080:8080
