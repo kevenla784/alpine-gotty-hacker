@@ -24,6 +24,7 @@ RUN apk -U upgrade && \
     tar tmux tree \
     vim \
     xz \
+    ffmpeg \
     zsh && \
     GOPATH=/tmp/gotty go get -u github.com/yudai/gotty && \
     mv /tmp/gotty/bin/gotty /usr/local/bin/ && \
